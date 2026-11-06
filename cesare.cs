@@ -16,5 +16,20 @@ namespace cesare
         {
             InitializeComponent();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txt_4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
