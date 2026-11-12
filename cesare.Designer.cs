@@ -46,14 +46,24 @@
             this.btn_2 = new System.Windows.Forms.Button();
             this.lbl_8 = new System.Windows.Forms.Label();
             this.txt_6 = new System.Windows.Forms.TextBox();
+            this.lbl_9 = new System.Windows.Forms.Label();
+            this.pct_2 = new System.Windows.Forms.PictureBox();
+            this.lbl_10 = new System.Windows.Forms.Label();
+            this.lbl_11 = new System.Windows.Forms.Label();
+            this.lbl_12 = new System.Windows.Forms.Label();
+            this.btn_3 = new System.Windows.Forms.Button();
+            this.txt_7 = new System.Windows.Forms.TextBox();
+            this.txt_8 = new System.Windows.Forms.TextBox();
+            this.txt_9 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pct_1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct_2)).BeginInit();
             this.SuspendLayout();
             // 
             // lbl_1
             // 
             this.lbl_1.AutoSize = true;
             this.lbl_1.Font = new System.Drawing.Font("MV Boli", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_1.Location = new System.Drawing.Point(267, 20);
+            this.lbl_1.Location = new System.Drawing.Point(395, 9);
             this.lbl_1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.lbl_1.Name = "lbl_1";
             this.lbl_1.Size = new System.Drawing.Size(259, 39);
@@ -64,7 +74,7 @@
             // 
             this.lbl_2.AutoSize = true;
             this.lbl_2.Font = new System.Drawing.Font("Modern No. 20", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_2.Location = new System.Drawing.Point(14, 113);
+            this.lbl_2.Location = new System.Drawing.Point(11, 113);
             this.lbl_2.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.lbl_2.Name = "lbl_2";
             this.lbl_2.Size = new System.Drawing.Size(119, 17);
@@ -100,25 +110,25 @@
             // 
             // btn_1
             // 
-            this.btn_1.Location = new System.Drawing.Point(14, 403);
+            this.btn_1.Location = new System.Drawing.Point(14, 412);
             this.btn_1.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.btn_1.Name = "btn_1";
             this.btn_1.Size = new System.Drawing.Size(106, 48);
             this.btn_1.TabIndex = 5;
             this.btn_1.Text = "CRIPTA\r\nORA";
             this.btn_1.UseVisualStyleBackColor = true;
+            this.btn_1.Click += new System.EventHandler(this.btn_1_Click);
             // 
             // pct_1
             // 
             this.pct_1.Image = ((System.Drawing.Image)(resources.GetObject("pct_1.Image")));
-            this.pct_1.Location = new System.Drawing.Point(14, 263);
+            this.pct_1.Location = new System.Drawing.Point(3, 272);
             this.pct_1.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.pct_1.Name = "pct_1";
             this.pct_1.Size = new System.Drawing.Size(319, 119);
             this.pct_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pct_1.TabIndex = 6;
             this.pct_1.TabStop = false;
-            this.pct_1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // lbl_4
             // 
@@ -133,7 +143,7 @@
             // 
             // txt_3
             // 
-            this.txt_3.Location = new System.Drawing.Point(166, 221);
+            this.txt_3.Location = new System.Drawing.Point(158, 221);
             this.txt_3.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.txt_3.Name = "txt_3";
             this.txt_3.Size = new System.Drawing.Size(164, 24);
@@ -142,7 +152,7 @@
             // lbl_5
             // 
             this.lbl_5.AutoSize = true;
-            this.lbl_5.Location = new System.Drawing.Point(387, 116);
+            this.lbl_5.Location = new System.Drawing.Point(341, 116);
             this.lbl_5.Name = "lbl_5";
             this.lbl_5.Size = new System.Drawing.Size(14, 324);
             this.lbl_5.TabIndex = 9;
@@ -152,7 +162,7 @@
             // 
             this.lbl_6.AutoSize = true;
             this.lbl_6.Font = new System.Drawing.Font("Modern No. 20", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_6.Location = new System.Drawing.Point(438, 116);
+            this.lbl_6.Location = new System.Drawing.Point(361, 262);
             this.lbl_6.Name = "lbl_6";
             this.lbl_6.Size = new System.Drawing.Size(141, 34);
             this.lbl_6.TabIndex = 10;
@@ -160,17 +170,16 @@
             // 
             // txt_4
             // 
-            this.txt_4.Location = new System.Drawing.Point(622, 116);
+            this.txt_4.Location = new System.Drawing.Point(532, 272);
             this.txt_4.Name = "txt_4";
             this.txt_4.Size = new System.Drawing.Size(133, 24);
             this.txt_4.TabIndex = 11;
-            this.txt_4.TextChanged += new System.EventHandler(this.txt_4_TextChanged);
             // 
             // lbl_7
             // 
             this.lbl_7.AutoSize = true;
             this.lbl_7.Font = new System.Drawing.Font("Modern No. 20", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_7.Location = new System.Drawing.Point(437, 177);
+            this.lbl_7.Location = new System.Drawing.Point(357, 326);
             this.lbl_7.Name = "lbl_7";
             this.lbl_7.Size = new System.Drawing.Size(142, 17);
             this.lbl_7.TabIndex = 12;
@@ -178,25 +187,26 @@
             // 
             // txt_5
             // 
-            this.txt_5.Location = new System.Drawing.Point(622, 169);
+            this.txt_5.Location = new System.Drawing.Point(532, 319);
             this.txt_5.Name = "txt_5";
             this.txt_5.Size = new System.Drawing.Size(133, 24);
             this.txt_5.TabIndex = 13;
             // 
             // btn_2
             // 
-            this.btn_2.Location = new System.Drawing.Point(431, 384);
+            this.btn_2.Location = new System.Drawing.Point(364, 403);
             this.btn_2.Name = "btn_2";
             this.btn_2.Size = new System.Drawing.Size(127, 67);
             this.btn_2.TabIndex = 14;
             this.btn_2.Text = "DESCRIPTA \r\nORA";
             this.btn_2.UseVisualStyleBackColor = true;
+            this.btn_2.Click += new System.EventHandler(this.btn_2_Click);
             // 
             // lbl_8
             // 
             this.lbl_8.AutoSize = true;
             this.lbl_8.Font = new System.Drawing.Font("Modern No. 20", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_8.Location = new System.Drawing.Point(428, 228);
+            this.lbl_8.Location = new System.Drawing.Point(357, 374);
             this.lbl_8.Name = "lbl_8";
             this.lbl_8.Size = new System.Drawing.Size(169, 17);
             this.lbl_8.TabIndex = 15;
@@ -204,17 +214,106 @@
             // 
             // txt_6
             // 
-            this.txt_6.Location = new System.Drawing.Point(622, 221);
+            this.txt_6.Location = new System.Drawing.Point(532, 367);
             this.txt_6.Name = "txt_6";
             this.txt_6.Size = new System.Drawing.Size(133, 24);
             this.txt_6.TabIndex = 16;
+            // 
+            // lbl_9
+            // 
+            this.lbl_9.AutoSize = true;
+            this.lbl_9.Location = new System.Drawing.Point(675, 116);
+            this.lbl_9.Name = "lbl_9";
+            this.lbl_9.Size = new System.Drawing.Size(14, 324);
+            this.lbl_9.TabIndex = 17;
+            this.lbl_9.Text = "|\r\n|\r\n|\r\n|\r\n\r\n|\r\n|\r\n|\r\n|\r\n\r\n|\r\n|\r\n|\r\n\r\n|\r\n|\r\n|\r\n|\r\n";
+            // 
+            // pct_2
+            // 
+            this.pct_2.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.pct_2.Image = ((System.Drawing.Image)(resources.GetObject("pct_2.Image")));
+            this.pct_2.Location = new System.Drawing.Point(415, 113);
+            this.pct_2.Name = "pct_2";
+            this.pct_2.Size = new System.Drawing.Size(210, 122);
+            this.pct_2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pct_2.TabIndex = 18;
+            this.pct_2.TabStop = false;
+            // 
+            // lbl_10
+            // 
+            this.lbl_10.AutoSize = true;
+            this.lbl_10.Font = new System.Drawing.Font("Modern No. 20", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_10.Location = new System.Drawing.Point(695, 119);
+            this.lbl_10.Name = "lbl_10";
+            this.lbl_10.Size = new System.Drawing.Size(119, 17);
+            this.lbl_10.TabIndex = 19;
+            this.lbl_10.Text = "Testo da cifrare";
+            // 
+            // lbl_11
+            // 
+            this.lbl_11.AutoSize = true;
+            this.lbl_11.Font = new System.Drawing.Font("Modern No. 20", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_11.Location = new System.Drawing.Point(695, 169);
+            this.lbl_11.Name = "lbl_11";
+            this.lbl_11.Size = new System.Drawing.Size(142, 17);
+            this.lbl_11.TabIndex = 20;
+            this.lbl_11.Text = "Chiave di cifratura";
+            // 
+            // lbl_12
+            // 
+            this.lbl_12.AutoSize = true;
+            this.lbl_12.Font = new System.Drawing.Font("Modern No. 20", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_12.Location = new System.Drawing.Point(695, 220);
+            this.lbl_12.Name = "lbl_12";
+            this.lbl_12.Size = new System.Drawing.Size(163, 17);
+            this.lbl_12.TabIndex = 21;
+            this.lbl_12.Text = "Risultato da decifrare";
+            // 
+            // btn_3
+            // 
+            this.btn_3.Location = new System.Drawing.Point(722, 403);
+            this.btn_3.Name = "btn_3";
+            this.btn_3.Size = new System.Drawing.Size(100, 57);
+            this.btn_3.TabIndex = 22;
+            this.btn_3.Text = "CRIPTA ORA";
+            this.btn_3.UseVisualStyleBackColor = true;
+            // 
+            // txt_7
+            // 
+            this.txt_7.Location = new System.Drawing.Point(887, 116);
+            this.txt_7.Name = "txt_7";
+            this.txt_7.Size = new System.Drawing.Size(100, 24);
+            this.txt_7.TabIndex = 23;
+            // 
+            // txt_8
+            // 
+            this.txt_8.Location = new System.Drawing.Point(887, 166);
+            this.txt_8.Name = "txt_8";
+            this.txt_8.Size = new System.Drawing.Size(100, 24);
+            this.txt_8.TabIndex = 24;
+            // 
+            // txt_9
+            // 
+            this.txt_9.Location = new System.Drawing.Point(887, 217);
+            this.txt_9.Name = "txt_9";
+            this.txt_9.Size = new System.Drawing.Size(100, 24);
+            this.txt_9.TabIndex = 25;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(767, 623);
+            this.ClientSize = new System.Drawing.Size(1444, 623);
+            this.Controls.Add(this.txt_9);
+            this.Controls.Add(this.txt_8);
+            this.Controls.Add(this.txt_7);
+            this.Controls.Add(this.btn_3);
+            this.Controls.Add(this.lbl_12);
+            this.Controls.Add(this.lbl_11);
+            this.Controls.Add(this.lbl_10);
+            this.Controls.Add(this.pct_2);
+            this.Controls.Add(this.lbl_9);
             this.Controls.Add(this.txt_6);
             this.Controls.Add(this.lbl_8);
             this.Controls.Add(this.btn_2);
@@ -235,9 +334,9 @@
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.Name = "Form1";
-            this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.Text = "Testo ";
             ((System.ComponentModel.ISupportInitialize)(this.pct_1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pct_2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -262,6 +361,15 @@
         private System.Windows.Forms.Button btn_2;
         private System.Windows.Forms.Label lbl_8;
         private System.Windows.Forms.TextBox txt_6;
+        private System.Windows.Forms.Label lbl_9;
+        private System.Windows.Forms.PictureBox pct_2;
+        private System.Windows.Forms.Label lbl_10;
+        private System.Windows.Forms.Label lbl_11;
+        private System.Windows.Forms.Label lbl_12;
+        private System.Windows.Forms.Button btn_3;
+        private System.Windows.Forms.TextBox txt_7;
+        private System.Windows.Forms.TextBox txt_8;
+        private System.Windows.Forms.TextBox txt_9;
     }
 }
 
