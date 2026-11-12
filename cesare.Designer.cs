@@ -277,26 +277,30 @@
             this.btn_3.TabIndex = 22;
             this.btn_3.Text = "CRIPTA ORA";
             this.btn_3.UseVisualStyleBackColor = true;
+            this.btn_3.Click += new System.EventHandler(this.btn_3_Click);
             // 
             // txt_7
             // 
+            this.txt_7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_7.Location = new System.Drawing.Point(887, 116);
             this.txt_7.Name = "txt_7";
-            this.txt_7.Size = new System.Drawing.Size(100, 24);
+            this.txt_7.Size = new System.Drawing.Size(142, 21);
             this.txt_7.TabIndex = 23;
             // 
             // txt_8
             // 
+            this.txt_8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_8.Location = new System.Drawing.Point(887, 166);
             this.txt_8.Name = "txt_8";
-            this.txt_8.Size = new System.Drawing.Size(100, 24);
+            this.txt_8.Size = new System.Drawing.Size(142, 21);
             this.txt_8.TabIndex = 24;
             // 
             // txt_9
             // 
+            this.txt_9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_9.Location = new System.Drawing.Point(887, 217);
             this.txt_9.Name = "txt_9";
-            this.txt_9.Size = new System.Drawing.Size(100, 24);
+            this.txt_9.Size = new System.Drawing.Size(142, 21);
             this.txt_9.TabIndex = 25;
             // 
             // Form1
