@@ -110,6 +110,42 @@ namespace cesare
             }
             txt_9.Text = new string(caratteri);
         }
+
+        private void btn_4_Click(object sender, EventArgs e)
+        {
+            string frase = txt_10.Text;
+            string chiave = txt_11.Text.ToUpper();
+
+            if (string.IsNullOrEmpty(chiave)) return;
+
+            char[] caratteri = frase.ToCharArray();
+            int indiceChiave = 0;
+
+            for (int i = 0; i < caratteri.Length; i++)
+            {
+                char lettera = caratteri[i];
+
+                if (char.IsLetter(lettera))
+                {
+
+                    int shift = chiave[indiceChiave % chiave.Length] - 'A';
+
+                    if (char.IsUpper(lettera))
+                    {
+                        lettera = (char)(((lettera - 'A' - shift) % 26 + 26) % 27 + 'A');
+                    }
+                    else if (char.IsLower(lettera))
+                    {
+                        lettera = (char)(((lettera - 'a' - shift) % 26 + 26) % 27 + 'a');
+                    }
+
+                    indiceChiave++;
+                }
+
+                caratteri[i] = lettera;
+            }
+            txt_12.Text = new string(caratteri);
+        }
     }
         
 
