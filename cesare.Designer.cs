@@ -55,14 +55,7 @@
             this.txt_7 = new System.Windows.Forms.TextBox();
             this.txt_8 = new System.Windows.Forms.TextBox();
             this.txt_9 = new System.Windows.Forms.TextBox();
-            this.lbl_13 = new System.Windows.Forms.Label();
-            this.lbl_14 = new System.Windows.Forms.Label();
-            this.lbl_16 = new System.Windows.Forms.Label();
-            this.lbl_15 = new System.Windows.Forms.Label();
-            this.txt_12 = new System.Windows.Forms.TextBox();
-            this.txt_11 = new System.Windows.Forms.TextBox();
-            this.txt_10 = new System.Windows.Forms.TextBox();
-            this.btn_4 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pct_1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct_2)).BeginInit();
             this.SuspendLayout();
@@ -74,54 +67,54 @@
             this.lbl_1.Location = new System.Drawing.Point(395, 9);
             this.lbl_1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.lbl_1.Name = "lbl_1";
-            this.lbl_1.Size = new System.Drawing.Size(331, 49);
+            this.lbl_1.Size = new System.Drawing.Size(259, 39);
             this.lbl_1.TabIndex = 0;
             this.lbl_1.Text = "Cifrario di cesare";
             // 
             // lbl_2
             // 
             this.lbl_2.AutoSize = true;
-            this.lbl_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_2.Location = new System.Drawing.Point(2, 113);
+            this.lbl_2.Font = new System.Drawing.Font("Modern No. 20", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_2.Location = new System.Drawing.Point(11, 113);
             this.lbl_2.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.lbl_2.Name = "lbl_2";
-            this.lbl_2.Size = new System.Drawing.Size(155, 24);
+            this.lbl_2.Size = new System.Drawing.Size(119, 17);
             this.lbl_2.TabIndex = 1;
             this.lbl_2.Text = "Testo da cifrare";
             // 
             // txt_1
             // 
-            this.txt_1.Location = new System.Drawing.Point(186, 116);
+            this.txt_1.Location = new System.Drawing.Point(166, 113);
             this.txt_1.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.txt_1.Name = "txt_1";
-            this.txt_1.Size = new System.Drawing.Size(164, 29);
+            this.txt_1.Size = new System.Drawing.Size(164, 24);
             this.txt_1.TabIndex = 2;
             // 
             // lbl_3
             // 
             this.lbl_3.AutoSize = true;
-            this.lbl_3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_3.Location = new System.Drawing.Point(-1, 169);
+            this.lbl_3.Font = new System.Drawing.Font("Modern No. 20", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_3.Location = new System.Drawing.Point(14, 169);
             this.lbl_3.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.lbl_3.Name = "lbl_3";
-            this.lbl_3.Size = new System.Drawing.Size(177, 24);
+            this.lbl_3.Size = new System.Drawing.Size(142, 17);
             this.lbl_3.TabIndex = 3;
             this.lbl_3.Text = "Chiave di cifratura";
             // 
             // txt_2
             // 
-            this.txt_2.Location = new System.Drawing.Point(186, 170);
+            this.txt_2.Location = new System.Drawing.Point(166, 163);
             this.txt_2.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.txt_2.Name = "txt_2";
-            this.txt_2.Size = new System.Drawing.Size(164, 29);
+            this.txt_2.Size = new System.Drawing.Size(164, 24);
             this.txt_2.TabIndex = 4;
             // 
             // btn_1
             // 
-            this.btn_1.Location = new System.Drawing.Point(79, 426);
+            this.btn_1.Location = new System.Drawing.Point(14, 412);
             this.btn_1.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.btn_1.Name = "btn_1";
-            this.btn_1.Size = new System.Drawing.Size(158, 79);
+            this.btn_1.Size = new System.Drawing.Size(106, 48);
             this.btn_1.TabIndex = 5;
             this.btn_1.Text = "CRIPTA\r\nORA";
             this.btn_1.UseVisualStyleBackColor = true;
@@ -141,70 +134,70 @@
             // lbl_4
             // 
             this.lbl_4.AutoSize = true;
-            this.lbl_4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_4.Location = new System.Drawing.Point(-1, 224);
+            this.lbl_4.Font = new System.Drawing.Font("Modern No. 20", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_4.Location = new System.Drawing.Point(14, 221);
             this.lbl_4.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.lbl_4.Name = "lbl_4";
-            this.lbl_4.Size = new System.Drawing.Size(175, 24);
+            this.lbl_4.Size = new System.Drawing.Size(134, 17);
             this.lbl_4.TabIndex = 7;
-            this.lbl_4.Text = "Risultato decifrato";
+            this.lbl_4.Text = "Risultato cifrario";
             // 
             // txt_3
             // 
-            this.txt_3.Location = new System.Drawing.Point(186, 217);
+            this.txt_3.Location = new System.Drawing.Point(158, 221);
             this.txt_3.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.txt_3.Name = "txt_3";
-            this.txt_3.Size = new System.Drawing.Size(164, 29);
+            this.txt_3.Size = new System.Drawing.Size(164, 24);
             this.txt_3.TabIndex = 8;
             // 
             // lbl_5
             // 
             this.lbl_5.AutoSize = true;
-            this.lbl_5.Location = new System.Drawing.Point(341, 119);
+            this.lbl_5.Location = new System.Drawing.Point(341, 116);
             this.lbl_5.Name = "lbl_5";
-            this.lbl_5.Size = new System.Drawing.Size(15, 432);
+            this.lbl_5.Size = new System.Drawing.Size(14, 324);
             this.lbl_5.TabIndex = 9;
             this.lbl_5.Text = "|\r\n|\r\n|\r\n|\r\n\r\n|\r\n|\r\n|\r\n|\r\n\r\n|\r\n|\r\n|\r\n\r\n|\r\n|\r\n|\r\n|";
             // 
             // lbl_6
             // 
             this.lbl_6.AutoSize = true;
-            this.lbl_6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_6.Location = new System.Drawing.Point(355, 275);
+            this.lbl_6.Font = new System.Drawing.Font("Modern No. 20", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_6.Location = new System.Drawing.Point(361, 262);
             this.lbl_6.Name = "lbl_6";
-            this.lbl_6.Size = new System.Drawing.Size(179, 24);
+            this.lbl_6.Size = new System.Drawing.Size(141, 34);
             this.lbl_6.TabIndex = 10;
-            this.lbl_6.Text = "Testo da decifrare\r\n";
+            this.lbl_6.Text = "Testo crittografato\r\n(inserisci qui)";
             // 
             // txt_4
             // 
-            this.txt_4.Location = new System.Drawing.Point(579, 272);
+            this.txt_4.Location = new System.Drawing.Point(532, 272);
             this.txt_4.Name = "txt_4";
-            this.txt_4.Size = new System.Drawing.Size(133, 29);
+            this.txt_4.Size = new System.Drawing.Size(133, 24);
             this.txt_4.TabIndex = 11;
             // 
             // lbl_7
             // 
             this.lbl_7.AutoSize = true;
-            this.lbl_7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_7.Font = new System.Drawing.Font("Modern No. 20", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_7.Location = new System.Drawing.Point(357, 326);
             this.lbl_7.Name = "lbl_7";
-            this.lbl_7.Size = new System.Drawing.Size(177, 24);
+            this.lbl_7.Size = new System.Drawing.Size(142, 17);
             this.lbl_7.TabIndex = 12;
             this.lbl_7.Text = "Chiave di cifratura";
             // 
             // txt_5
             // 
-            this.txt_5.Location = new System.Drawing.Point(579, 321);
+            this.txt_5.Location = new System.Drawing.Point(532, 319);
             this.txt_5.Name = "txt_5";
-            this.txt_5.Size = new System.Drawing.Size(133, 29);
+            this.txt_5.Size = new System.Drawing.Size(133, 24);
             this.txt_5.TabIndex = 13;
             // 
             // btn_2
             // 
-            this.btn_2.Location = new System.Drawing.Point(432, 426);
+            this.btn_2.Location = new System.Drawing.Point(364, 403);
             this.btn_2.Name = "btn_2";
-            this.btn_2.Size = new System.Drawing.Size(170, 79);
+            this.btn_2.Size = new System.Drawing.Size(127, 67);
             this.btn_2.TabIndex = 14;
             this.btn_2.Text = "DESCRIPTA \r\nORA";
             this.btn_2.UseVisualStyleBackColor = true;
@@ -213,26 +206,26 @@
             // lbl_8
             // 
             this.lbl_8.AutoSize = true;
-            this.lbl_8.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_8.Font = new System.Drawing.Font("Modern No. 20", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_8.Location = new System.Drawing.Point(357, 374);
             this.lbl_8.Name = "lbl_8";
-            this.lbl_8.Size = new System.Drawing.Size(182, 24);
+            this.lbl_8.Size = new System.Drawing.Size(169, 17);
             this.lbl_8.TabIndex = 15;
-            this.lbl_8.Text = "Risultato da cifrare";
+            this.lbl_8.Text = "Risultato da descifrare";
             // 
             // txt_6
             // 
-            this.txt_6.Location = new System.Drawing.Point(579, 371);
+            this.txt_6.Location = new System.Drawing.Point(532, 367);
             this.txt_6.Name = "txt_6";
-            this.txt_6.Size = new System.Drawing.Size(133, 29);
+            this.txt_6.Size = new System.Drawing.Size(133, 24);
             this.txt_6.TabIndex = 16;
             // 
             // lbl_9
             // 
             this.lbl_9.AutoSize = true;
-            this.lbl_9.Location = new System.Drawing.Point(718, 116);
+            this.lbl_9.Location = new System.Drawing.Point(675, 116);
             this.lbl_9.Name = "lbl_9";
-            this.lbl_9.Size = new System.Drawing.Size(15, 432);
+            this.lbl_9.Size = new System.Drawing.Size(14, 324);
             this.lbl_9.TabIndex = 17;
             this.lbl_9.Text = "|\r\n|\r\n|\r\n|\r\n\r\n|\r\n|\r\n|\r\n|\r\n\r\n|\r\n|\r\n|\r\n\r\n|\r\n|\r\n|\r\n|\r\n";
             // 
@@ -250,38 +243,38 @@
             // lbl_10
             // 
             this.lbl_10.AutoSize = true;
-            this.lbl_10.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_10.Location = new System.Drawing.Point(726, 119);
+            this.lbl_10.Font = new System.Drawing.Font("Modern No. 20", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_10.Location = new System.Drawing.Point(695, 119);
             this.lbl_10.Name = "lbl_10";
-            this.lbl_10.Size = new System.Drawing.Size(155, 24);
+            this.lbl_10.Size = new System.Drawing.Size(119, 17);
             this.lbl_10.TabIndex = 19;
             this.lbl_10.Text = "Testo da cifrare";
             // 
             // lbl_11
             // 
             this.lbl_11.AutoSize = true;
-            this.lbl_11.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_11.Location = new System.Drawing.Point(730, 170);
+            this.lbl_11.Font = new System.Drawing.Font("Modern No. 20", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_11.Location = new System.Drawing.Point(695, 169);
             this.lbl_11.Name = "lbl_11";
-            this.lbl_11.Size = new System.Drawing.Size(177, 24);
+            this.lbl_11.Size = new System.Drawing.Size(142, 17);
             this.lbl_11.TabIndex = 20;
             this.lbl_11.Text = "Chiave di cifratura";
             // 
             // lbl_12
             // 
             this.lbl_12.AutoSize = true;
-            this.lbl_12.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_12.Location = new System.Drawing.Point(730, 224);
+            this.lbl_12.Font = new System.Drawing.Font("Modern No. 20", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_12.Location = new System.Drawing.Point(695, 220);
             this.lbl_12.Name = "lbl_12";
-            this.lbl_12.Size = new System.Drawing.Size(206, 24);
+            this.lbl_12.Size = new System.Drawing.Size(163, 17);
             this.lbl_12.TabIndex = 21;
             this.lbl_12.Text = "Risultato da decifrare";
             // 
             // btn_3
             // 
-            this.btn_3.Location = new System.Drawing.Point(788, 426);
+            this.btn_3.Location = new System.Drawing.Point(722, 403);
             this.btn_3.Name = "btn_3";
-            this.btn_3.Size = new System.Drawing.Size(169, 79);
+            this.btn_3.Size = new System.Drawing.Size(100, 57);
             this.btn_3.TabIndex = 22;
             this.btn_3.Text = "CRIPTA ORA";
             this.btn_3.UseVisualStyleBackColor = true;
@@ -290,108 +283,43 @@
             // txt_7
             // 
             this.txt_7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_7.Location = new System.Drawing.Point(942, 119);
+            this.txt_7.Location = new System.Drawing.Point(887, 116);
             this.txt_7.Name = "txt_7";
-            this.txt_7.Size = new System.Drawing.Size(142, 24);
+            this.txt_7.Size = new System.Drawing.Size(142, 21);
             this.txt_7.TabIndex = 23;
             // 
             // txt_8
             // 
             this.txt_8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_8.Location = new System.Drawing.Point(942, 170);
+            this.txt_8.Location = new System.Drawing.Point(887, 166);
             this.txt_8.Name = "txt_8";
-            this.txt_8.Size = new System.Drawing.Size(142, 24);
+            this.txt_8.Size = new System.Drawing.Size(142, 21);
             this.txt_8.TabIndex = 24;
             // 
             // txt_9
             // 
             this.txt_9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_9.Location = new System.Drawing.Point(942, 222);
+            this.txt_9.Location = new System.Drawing.Point(887, 217);
             this.txt_9.Name = "txt_9";
-            this.txt_9.Size = new System.Drawing.Size(142, 24);
+            this.txt_9.Size = new System.Drawing.Size(142, 21);
             this.txt_9.TabIndex = 25;
             // 
-            // lbl_13
+            // label1
             // 
-            this.lbl_13.AutoSize = true;
-            this.lbl_13.Location = new System.Drawing.Point(1099, 119);
-            this.lbl_13.Name = "lbl_13";
-            this.lbl_13.Size = new System.Drawing.Size(15, 432);
-            this.lbl_13.TabIndex = 26;
-            this.lbl_13.Text = "|\r\n|\r\n|\r\n|\r\n\r\n|\r\n|\r\n|\r\n|\r\n\r\n|\r\n|\r\n|\r\n\r\n|\r\n|\r\n|\r\n|";
-            // 
-            // lbl_14
-            // 
-            this.lbl_14.AutoSize = true;
-            this.lbl_14.Location = new System.Drawing.Point(1108, 119);
-            this.lbl_14.Name = "lbl_14";
-            this.lbl_14.Size = new System.Drawing.Size(179, 24);
-            this.lbl_14.TabIndex = 27;
-            this.lbl_14.Text = "Testo da decifrare";
-            // 
-            // lbl_16
-            // 
-            this.lbl_16.AutoSize = true;
-            this.lbl_16.Location = new System.Drawing.Point(1110, 221);
-            this.lbl_16.Name = "lbl_16";
-            this.lbl_16.Size = new System.Drawing.Size(188, 24);
-            this.lbl_16.TabIndex = 28;
-            this.lbl_16.Text = "Risultato da cifrare ";
-            // 
-            // lbl_15
-            // 
-            this.lbl_15.AutoSize = true;
-            this.lbl_15.Location = new System.Drawing.Point(1110, 173);
-            this.lbl_15.Name = "lbl_15";
-            this.lbl_15.Size = new System.Drawing.Size(177, 24);
-            this.lbl_15.TabIndex = 29;
-            this.lbl_15.Text = "Chiave di cifratura";
-            // 
-            // txt_12
-            // 
-            this.txt_12.Location = new System.Drawing.Point(1293, 216);
-            this.txt_12.Name = "txt_12";
-            this.txt_12.Size = new System.Drawing.Size(150, 29);
-            this.txt_12.TabIndex = 30;
-            // 
-            // txt_11
-            // 
-            this.txt_11.Location = new System.Drawing.Point(1293, 168);
-            this.txt_11.Name = "txt_11";
-            this.txt_11.Size = new System.Drawing.Size(150, 29);
-            this.txt_11.TabIndex = 31;
-            // 
-            // txt_10
-            // 
-            this.txt_10.Location = new System.Drawing.Point(1293, 116);
-            this.txt_10.Name = "txt_10";
-            this.txt_10.Size = new System.Drawing.Size(150, 29);
-            this.txt_10.TabIndex = 32;
-            // 
-            // btn_4
-            // 
-            this.btn_4.Location = new System.Drawing.Point(1203, 426);
-            this.btn_4.Name = "btn_4";
-            this.btn_4.Size = new System.Drawing.Size(158, 79);
-            this.btn_4.TabIndex = 33;
-            this.btn_4.Text = "DECRIPTA ORA";
-            this.btn_4.UseVisualStyleBackColor = true;
-            this.btn_4.Click += new System.EventHandler(this.btn_4_Click);
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(981, 294);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(52, 18);
+            this.label1.TabIndex = 26;
+            this.label1.Text = "label1";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 24F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(1444, 623);
-            this.Controls.Add(this.btn_4);
-            this.Controls.Add(this.txt_10);
-            this.Controls.Add(this.txt_11);
-            this.Controls.Add(this.txt_12);
-            this.Controls.Add(this.lbl_15);
-            this.Controls.Add(this.lbl_16);
-            this.Controls.Add(this.lbl_14);
-            this.Controls.Add(this.lbl_13);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.txt_9);
             this.Controls.Add(this.txt_8);
             this.Controls.Add(this.txt_7);
@@ -457,14 +385,7 @@
         private System.Windows.Forms.TextBox txt_7;
         private System.Windows.Forms.TextBox txt_8;
         private System.Windows.Forms.TextBox txt_9;
-        private System.Windows.Forms.Label lbl_13;
-        private System.Windows.Forms.Label lbl_14;
-        private System.Windows.Forms.Label lbl_16;
-        private System.Windows.Forms.Label lbl_15;
-        private System.Windows.Forms.TextBox txt_12;
-        private System.Windows.Forms.TextBox txt_11;
-        private System.Windows.Forms.TextBox txt_10;
-        private System.Windows.Forms.Button btn_4;
+        private System.Windows.Forms.Label label1;
     }
 }
 
